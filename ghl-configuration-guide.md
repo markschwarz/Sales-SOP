@@ -19,10 +19,18 @@ This document records the programmatic and manual GHL setup completed for the We
   11. `Closed Lost`
 
 ## 2. Custom Field Setup
-* **Field Name:** Follow-Up Step
-* **Field ID:** `kXAW1iJzGseynQLTfX2L`
-* **Field Key:** `contact.followup_step`
-* **Data Type:** `NUMERICAL`
+* **Field Name:** Follow-Up Step (Contact Field)
+  * **Field ID:** `kXAW1iJzGseynQLTfX2L`
+  * **Field Key:** `contact.followup_step`
+  * **Data Type:** `NUMERICAL`
+* **Field Name:** Sales Goal (Opportunity Field)
+  * **Field ID:** `mGyy2gWgk9uEEV9AtmMN`
+  * **Field Key:** `opportunity.sales_goal`
+  * **Data Type:** `TEXT`
+* **Field Name:** Follow-Up Notes (Opportunity Field)
+  * **Field ID:** `VKxdVWBySFUQp04Xguc0`
+  * **Field Key:** `opportunity.followup_notes`
+  * **Data Type:** `LARGE_TEXT`
 * **Location ID:** `3PhlgdBHBj8nLILjDYQR`
 
 ## 3. Workflow & Smart List Implementation Plan
